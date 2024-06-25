@@ -1,13 +1,13 @@
 .list-body{
 
-    /* border: 2px solid black; */
+    /* border: 2px solid white; */
     height: 700px;
-    /* background: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?cs=srgb&dl=pexels-goumbik-616401.jpg&fm=jpg); */
+    background: url(https://www.pixelstalk.net/wp-content/uploads/images5/Awesome-4K-Food-Wallpaper-HD.jpg);
     background-size: cover;
 }
 .list-body h1{
 
-    color: black;
+    color: orangered;
 }
 
 #list{
@@ -35,6 +35,7 @@
     display: flex;
     margin: auto;
     margin-top: 20px;
+    border-color: white;
     /* padding-top: 30px; */
     /* padding-bottom: 10px; */
 }
@@ -45,7 +46,7 @@
     width: 270px;
     height: 40px;
     padding-top: 10px;
-    color: black;
+    color: white;
     text-align: center;
 }
 .main h4:hover{

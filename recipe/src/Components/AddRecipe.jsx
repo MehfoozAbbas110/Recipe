@@ -53,6 +53,7 @@ const AddRecipe = ({ setRecipes }) => {
 
   }
   return (
+    
     <div className="App1">
       <h1>Add Recipe Page</h1>
       <form className="form__container" onSubmit={handleSubmit}>

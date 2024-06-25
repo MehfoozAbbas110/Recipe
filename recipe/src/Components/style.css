@@ -1,9 +1,14 @@
+/* *{
+  background-color: #ccc;
+} */
+
 .App1 {
     font-family: sans-serif;
     text-align: center;
     display: flex;
     flex: 1;
     flex-direction: column;
+    /* background: url(https://www.pixelstalk.net/wp-content/uploads/images5/Awesome-4K-Food-Wallpaper-HD.jpg); */
   }
   .button {
     height: 40px;
@@ -47,11 +52,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
     margin: auto;
     padding: 10px;
     width: 450px;
+    border-color: white;
+    background-color: black;
+    color: orangered;
+
   }
   @media only screen and (max-width: 480px) {
     .form__container {
