@@ -1,0 +1,62 @@
+.list-body{
+
+    /* border: 2px solid black; */
+    height: 700px;
+    /* background: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?cs=srgb&dl=pexels-goumbik-616401.jpg&fm=jpg); */
+    background-size: cover;
+}
+.list-body h1{
+
+    color: black;
+}
+
+#list{
+
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+}
+
+
+/* .main{
+    
+    border: 2px sold blue;
+    height: 200px;
+    width: 22%;
+} */
+
+.main img{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    /* padding-top: 30px; */
+    /* padding-bottom: 10px; */
+}
+
+.main h4{
+
+    /* border: 2px solid yellowgreen; */
+    width: 270px;
+    height: 40px;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+}
+.main h4:hover{
+
+    cursor: pointer;
+    color: grey;
+
+}
+
+.main img:hover{
+
+    cursor: pointer;
+
+}
