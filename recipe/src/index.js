@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom"
 import { Toaster } from 'react-hot-toast';
+import { Provider } from 'react-redux';
+import Storee from './Redux/Storee';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <Provider store={Storee}>
   <Toaster
   position="top-center"
   reverseOrder={false}
@@ -35,6 +38,7 @@ root.render(
   }}
 />
     <App />
+    </Provider>
   </BrowserRouter>
   
 );
