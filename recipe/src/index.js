@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom"
 import { Toaster } from 'react-hot-toast';
 import { Provider } from 'react-redux';
-import Storee from './Redux/Storee';
+// import Storee from './Redux/Storee';
+import store from './Login/Store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <Provider store={Storee}>
+  <Provider store={store}>
   <Toaster
   position="top-center"
   reverseOrder={false}
