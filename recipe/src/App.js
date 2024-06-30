@@ -11,6 +11,8 @@ import AddTodoForm from './Redux/AddTodoForm';
 import LoginPage from './Login/LoginPage';
 import Logout from './Login/Logout';
 import { useSelector } from 'react-redux';
+import UseCallbackComponent from './29 June Assign/UseCallbackComponent';
+import UseMemoComponent from './29 June Assign/UseMemoComponent';
 
 
 
@@ -31,9 +33,11 @@ function App() {
         <Route path="/todolist" element={<AddTodoForm />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/logout" element={ <Logout />} />
+        <Route path="/use-callback" element={< UseCallbackComponent/>} />
+        <Route path="/use-memo" element={< UseMemoComponent/>} />
 
       </Routes>
-    // </div>
+    </div>
     );
       
 };
